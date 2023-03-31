@@ -1,0 +1,33 @@
+
+#bkgnd-photo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#location-message {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-shadow: 2px 2px #333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: linear-gradient(to bottom, var(--red), #ff0000);
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    opacity: 80%;
+    max-width: 85%;
+}
+
+#snazzymap {
+
+    width: 60%;
+    height: 700px;
+    margin-top: 20px;
+    border: 10px solid var(--red);
+    box-shadow: 4px 4px 8px #333;
+    border-radius: 10px;
+}

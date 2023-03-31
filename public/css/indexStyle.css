@@ -1,0 +1,111 @@
+#roll-dice:hover {
+    cursor: pointer;
+    color: var(--red);
+    transition: 0.3s;
+  }
+  
+  #roll-dice, #spell-lore-button {
+      display: flex;
+      text-align: center;
+      margin: 15% 30px;
+      padding: 10px 20px;
+      background-color: var(--black);
+      color: var(--gold);
+      cursor: pointer;
+      height: min-content;
+      width: 180px;
+      border: 4px solid;
+      border-radius: 2rem;
+      font-family: 'MedievalSharp';font-size: 32px;
+  }
+  
+    #spell-lore-button:hover {
+      color:var(--red);
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  #spell-name {
+      text-align: center;
+      background-color: var(--black);
+      color: var(--gold);
+      padding: 1%;
+      border: solid 4px;
+      width: 60%;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #spell-description {
+      background-color: white;
+      margin: 3%;
+      padding: 1%;
+      border: solid 4px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media only screen and (max-width: 800px) {
+        #bkgnd-photo1 {
+          height: auto;
+        }
+      
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            overflow: auto;
+        }
+
+        #spell-generator {
+            display: flex;
+            justify-content: center;
+          }
+      
+        #spell-name, #spell-description {
+          width: 90%;
+        }
+      
+        #roll-dice, #spell-lore-button {
+          font-size: 16px;
+          width: 100px;
+        }
+      }
+
+      @media only screen and (max-width:375px) {
+        .card-container {
+          flex-direction: column;
+          height: auto;
+          left: 0;
+        }
+      }
+    
+    .card-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      bottom: 0;
+      left: 40%;
+      right: 0;
+      overflow: auto;
+    }
+    
+    .card {
+      background-color: var(--black);
+      padding: 20px;
+      border: 5px solid var(--gold);
+      border-radius: 10px;
+      opacity: 80%;
+      text-align: center;
+      margin: 5%;
+    }
+  
+  .card:hover {
+  opacity: 95%;
+  transition:0.3s;
+  }
+  

@@ -1,0 +1,77 @@
+
+h2 {
+    margin: 2%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+.card {
+    width: 50%;
+    margin: auto;
+    border: 5px solid var(--gold);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    background-color: var(--red);
+    opacity: 80%;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'MedievalSharp';
+  }
+
+  
+  input[type="text"], select, input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: 'MedievalSharp';
+  }
+  
+  input[type="submit"] {
+    background-color: var(--gold);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    display: block;
+    margin: 20px auto;
+    font-family: 'MedievalSharp';
+  }
+  
+  #char-card {
+    display: grid;
+    align-content: column;
+    background-color: var(--red);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 30%;
+    height:50%;
+    margin: 140px 200px;
+    text-align: left;
+    font-family: 'MedievalSharp';
+    opacity: 80%;
+  }
+  
+  #char-card p {
+    margin-bottom: 10px;
+  }
+  #further-dev {
+    margin-top: 100px;
+  }
+

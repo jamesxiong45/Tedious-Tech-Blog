@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Villainous Lair</title>
+  <link rel="icon" type="title-icon" href="https://logos-world.net/wp-content/uploads/2021/12/DnD-Emblem.png" />
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=MedievalSharp'>
+  <link rel="stylesheet" href="../public/css/style.css">
+  <link rel="stylesheet" href="../public/css/indexStyle.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="page-nav-list">
+        <li><a href="character.html">Create a Character</a></li>
+        <li><a href="location.html">Game Store Locations</a></li>
+        <li><a href="credits.html">Site Credits</a></li>
+      </ul>
+    </nav>
+    <h1 class="name-title">Villainous Lair</h1>
+    <img class="gif" src="../public/images/7bb8d4aa96436f2 (1) (1).gif" max-width="100%" height="100%">
+  </header>
+  <h3 id="welcome-text">Welcome Traveler! The world of Dungeons & Dragons is one of mystery, monsters, and magic. On
+    this site you can learn about spells you may encounter or cast, practice rolling dice, start buidling a character,
+    and find local game stores that offer D&D products! Strap on your armor, pick up your sword and get ready for
+    adventure!</h3>
+  <section id="bkgnd-photo1">
+    <div class="container">
+      <button id="roll-dice" href="https://dddice.com/?ref=header" target="popup"
+        onclick="window.open('https://dddice.com/?ref=header','popup','width=600,height=600'); return false;">
+        Click here to Roll Dice!
+      </button>
+    </div>
+    <div class="container">
+      <button id="spell-lore-button">Click Here to View a Random Spell!</button>
+    </div>
+    <form id="spell-generator">
+      <div class="card-container" style="display: none;">
+        <div class="card">
+          <h2 id="spell-name"></h2>
+          <p id="spell-description"></p>
+        </div>
+      </div>
+    </form>
+  </section>
+  <footer>
+    By Dillon, Matthew, Stephen and James. All images and D&D content used for education purposes only and copyright
+    their respective owners.
+  </footer>
+  <script src="../public/script.js"></script>
+</body>
+
+</html>
